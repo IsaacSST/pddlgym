@@ -4,9 +4,6 @@ from collections import defaultdict
 import contextlib
 import sys
 import itertools
-import numpy as np
-import os
-import gym
 import imageio
 
 

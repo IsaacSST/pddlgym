@@ -1,5 +1,5 @@
-# PDDLGym: PDDL &rarr; OpenAI Gym
-
+# PDDLGym: PDDL &rarr; Gymnasium
+# This fork is an attempt to migrate PDDLGym to Gymnasium from OpenAI Gym
 ![Sokoban example](images/sokoban_example.gif?raw=true "Sokoban example")
 
 **This library is under development by [Tom Silver](https://tomsilver.github.io/) and [Rohan Chitnis](https://rohanchitnis.com/). Correspondence: <tomssilver@gmail.com> and <ronuchit@gmail.com>.**
@@ -117,7 +117,7 @@ See also `pddlgym/demo_planning.py`.
 
 ## Observation representation
 
-As in OpenAI Gym, calling `env.reset()` or `env.step()` will return an observation of the environment. This observation is a namedtuple with 3 fields: `obs.literals` gives a frozenset of literals that hold true in the state, `obs.objects` gives a frozenset of objects in the state, and `obs.goal` gives a pddlgym.structs.Literal object representing the goal of the current problem instance.
+As in Gymnasium, calling `env.reset()` or `env.step()` will return an observation of the environment. This observation is a namedtuple with 3 fields: `obs.literals` gives a frozenset of literals that hold true in the state, `obs.objects` gives a frozenset of objects in the state, and `obs.goal` gives a pddlgym.structs.Literal object representing the goal of the current problem instance.
 
 ## Adding a new domain
 

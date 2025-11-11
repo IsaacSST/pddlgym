@@ -24,7 +24,7 @@ import glob
 import os
 from itertools import product
 
-import gym
+import gymnasium as gym
 
 import numpy as np
 
